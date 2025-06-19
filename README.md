@@ -1,7 +1,7 @@
 # Predicting Customer Churn for a Telecom Company
 
 
-# 📦 Telecom Customer Churn Prediction — End-to-End ML Pipeline Project
+# 📦 Telecom Customer Churn Prediction
 
 > 🔍 Predicting customer churn using real-time industry-standard Machine Learning practices.  
 > 🚀 Built with XGBoost, SHAP, pandas, Scikit-Learn, and domain-driven feature engineering.

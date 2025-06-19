@@ -1,4 +1,4 @@
-# Predicting-Customer-Churn-for-a-Telecom-Company
+# Predicting Customer Churn for a Telecom Company
 
 
 # 📦 Telecom Customer Churn Prediction — End-to-End ML Pipeline Project
@@ -46,15 +46,17 @@ This **end-to-end machine learning project** covers everything from data ingesti
 
 ## 📁 File Structure
 📦 Telecom-Customer-Churn-ML
-├── 📄 README.md
-├── 📄 churn_notebook.ipynb           # Main Colab-ready notebook
-├── 📊 WA_Fn-UseC_-Telco-Customer-Churn.csv
-├── 📁 models/
-│   ├── xgb_churn_model.pkl           # Trained XGBoost model
-│   └── scaler.pkl                    # StandardScaler used in training
-├── 📈 visualizations/
-│   ├── roc_curve.png
-│   └── shap_summary.png
+├── 📄 README.md                      # Detailed project documentation
+├── 📄 churn_notebook.ipynb           # Main Colab-ready Jupyter Notebook
+├── 📊 WA_Fn-UseC_-Telco-Customer-Churn.csv  # Dataset used for training
+│
+├── 📁 models/                        # Serialized models and preprocessors
+│   ├── xgb_churn_model.pkl          # Trained XGBoost model
+│   └── scaler.pkl                   # StandardScaler instance used for feature scaling
+│
+├── 📈 visualizations/               # All project visual outputs
+│   ├── roc_curve.png                # ROC Curve showing model performance
+│   └── shap_summary.png             # SHAP summary plot for feature importance
 
 ---
 
@@ -140,10 +142,3 @@ If you like this project and want to contribute:
 ## 🛡️ License
 
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
-
----
-
-## 💬 Feedback
-
-Have suggestions or questions?  
-Drop an issue or reach out via GitHub or LinkedIn!

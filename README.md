@@ -54,9 +54,8 @@ This **end-to-end machine learning project** covers everything from data ingesti
 │   ├── xgb_churn_model.pkl         
 │   └── scaler.pkl
 │
-├── visualizations/
-│   ├── roc_curve.png
-│   └── shap_summary.png
+├── visualizations
+
 
 ---
 

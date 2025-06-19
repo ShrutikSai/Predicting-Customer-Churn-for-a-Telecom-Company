@@ -46,17 +46,17 @@ This **end-to-end machine learning project** covers everything from data ingesti
 
 ## 📁 File Structure
 📦 Telecom-Customer-Churn-ML
-├── 📄 README.md                      # Detailed project documentation
-├── 📄 churn_notebook.ipynb           # Main Colab-ready Jupyter Notebook
-├── 📊 WA_Fn-UseC_-Telco-Customer-Churn.csv  # Dataset used for training
+├── 📄 README.md
+├── 📄 churn_notebook.ipynb
+├── 📊 WA_Fn-UseC_-Telco-Customer-Churn.csv
 │
-├── 📁 models/                        # Serialized models and preprocessors
-│   ├── xgb_churn_model.pkl          # Trained XGBoost model
-│   └── scaler.pkl                   # StandardScaler instance used for feature scaling
+├── 📁 models/
+│   ├── xgb_churn_model.pkl
+│   └── scaler.pkl
 │
-├── 📈 visualizations/               # All project visual outputs
-│   ├── roc_curve.png                # ROC Curve showing model performance
-│   └── shap_summary.png             # SHAP summary plot for feature importance
+├── 📈 visualizations/
+│   ├── roc_curve.png
+│   └── shap_summary.png
 
 ---
 

@@ -45,16 +45,16 @@ This **end-to-end machine learning project** covers everything from data ingesti
 ---
 
 ## 📁 File Structure
-📦 Telecom-Customer-Churn-ML
-├── 📄 README.md
-├── 📄 churn_notebook.ipynb
-├── 📊 WA_Fn-UseC_-Telco-Customer-Churn.csv
+📦 Telecom-Customer-Churn-ML/
+├── README.md             
+├── churn_notebook.ipynb           
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv 
 │
-├── 📁 models/
-│   ├── xgb_churn_model.pkl
+├── models/                
+│   ├── xgb_churn_model.pkl         
 │   └── scaler.pkl
 │
-├── 📈 visualizations/
+├── visualizations/
 │   ├── roc_curve.png
 │   └── shap_summary.png
 

@@ -66,6 +66,51 @@ This **end-to-end machine learning project** covers everything from data ingesti
 
 ---
 
+## 📓 Project Workflow
+
+1. **Data Upload & Initial Exploration**
+2. **Handling Missing Values**
+3. **Categorical & Numerical Preprocessing**
+4. **Train-Test Split & Feature Scaling**
+5. **Model Training: XGBoost**
+6. **Performance Evaluation**
+7. **Model Interpretability (SHAP)**
+8. **Business Insights & Export**
+
+---
+
+## 📊 Model Performance Visualizations
+
+### 🔸 ROC Curve
+![ROC Curve](visualizations/roc_curve.png)
+
+---
+
+### 🔹 SHAP Summary Plot
+![SHAP Summary](visualizations/shap_summary.png)
+
+---
+
+## 📌 Tech Stack
+
+- Python 🐍
+- Pandas, NumPy
+- Scikit-learn
+- XGBoost
+- SHAP (Explainability)
+- Matplotlib, Seaborn
+
+---
+
+## 💾 Exported Assets
+
+- `xgb_churn_model.pkl` – Trained ML model  
+- `scaler.pkl` – Fitted StandardScaler  
+- `roc_curve.png` – Visual AUC ROC curve  
+- `shap_summary.png` – Visual model explainability  
+
+---
+
 ## 🚀 How to Run
 
 1. **Open in Google Colab** (recommended for GPU/TPU support).
@@ -102,13 +147,19 @@ This **end-to-end machine learning project** covers everything from data ingesti
 
 ---
 
-## 📌 Future Improvements
 
-- 📈 Hyperparameter tuning using `GridSearchCV` or `Optuna`
-- 📊 Streamlit frontend for real-time predictions
-- 🧠 NLP preprocessing for feedback/comments
-- 💾 Database integration (MySQL / Firebase)
-- 🛠️ AutoML and model selection pipelines
+## 📢 Business Insights
+
+🔍 Features like **Contract Type**, **Tenure**, and **Monthly Charges** were among the top churn indicators. Customers with month-to-month contracts and high monthly charges were more likely to churn.
+
+---
+
+## 🧠 Future Work
+
+- ✅ Streamlit App UI (Optional)  
+- 🤖 AutoML integration  
+- 📥 Real-time churn alerting system  
+- 🗣️ Integrate sentiment analysis from customer reviews
 
 ---
 
